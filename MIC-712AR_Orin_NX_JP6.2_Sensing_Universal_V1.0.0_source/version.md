@@ -1,0 +1,8 @@
+20250603:
+1. SG4A-NONX-G2Y-A1 supports Jetpack 6.2 (L4T 36.4.3).
+
+20251211: 
+1. adapt ISX028
+
+20260508:
+1. adapt MIC-712AR with ISX031C

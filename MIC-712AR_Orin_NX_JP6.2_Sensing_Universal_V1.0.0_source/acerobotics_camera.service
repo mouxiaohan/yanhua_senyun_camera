@@ -1,0 +1,16 @@
+[Unit]
+Description=INSTALL CAMERA MOUD
+After=systemd-udevd.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/camera/init.sh 2 2 2 2 1 1 1 1
+RemainAfterExit=yes
+Restart=no
+User=root
+Group=root
+WorkingDirectory=/usr/local/bin/camera
+
+
+[Install]
+WantedBy=multi-user.target
